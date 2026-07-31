@@ -832,3 +832,43 @@ footer {
     letter-spacing: 0.8px;
     line-height: 1.3;
 }
+.testimonial-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.testimonial-card {
+    min-height: 0;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.testimonial-attribution {
+    border-top: 1px solid #dedbd4;
+    margin-top: auto;
+    padding-top: 24px;
+}
+
+.testimonial-name {
+    color: #17201d;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.testimonial-role {
+    color: #747a77;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 6px;
+    text-transform: none;
+}
+
+@media (max-width: 700px) {
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+}
